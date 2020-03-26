@@ -1,27 +1,18 @@
-# Wagtail Vue Blog
-При изменении типов входящих в состав типа Union необходимо запускать генерацию `fragmentTypes.json`:   
+# Pro dobro
+
+Проект был реализован в финале хакатона "Цифровой прорыв 2019" и последующей акселерации командой "R34".
+
+## Запуск
+
+Frontend
 ```bash
-npm run codegen
+npm install
+npm run dev
 ```
 
+Backend
 ```bash
-# Запуск dev сервера с выхлопом в консоль, для добавления как таск в IDEA
-docker-compose up
-
+pipenv install
+pipenv shell
+python manage.py runserver
 ```
-Переменные окружения
-## БД
-| name        | debug       | docker debug | production  |
-| ----------- | ----------- | ------------ | ----------- |
-| DB_NAME     | marketplace | marketplace  | marketplace |
-| DB_USER     | marketplace | marketplace  | marketplace |
-| DB_PASSWORD | marketplace | marketplace  | marketplace |
-| DB_HOST     | localhost   | psql         | psql        |
-| DB_PORT     | 5432        | 5432         | 5432        |
-
-## REDIS
-| name       | debug     | docker debug | production |
-| ---------- | --------- | ------------ | ---------- |
-| REDIS_HOST | localhost | redis        | redis      |
-| REDIS_PORT | 6379      | 6379         | 6379       |
-# nuxt-wagtail-blog
