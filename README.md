@@ -19,5 +19,4 @@ python manage.py runserver
 
 
 ## Геймплей
-
-![](./videos/proccess.mp4)
+<iframe  title="YouTube video player" width="480" height="390" src="./videos/proccess.mp4" frameborder="0" allowfullscreen></iframe>
