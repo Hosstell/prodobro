@@ -16,3 +16,8 @@ pipenv install
 pipenv shell
 python manage.py runserver
 ```
+
+
+## Геймплей
+
+![](./videos/proccess.mp4)
