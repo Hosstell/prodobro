@@ -19,4 +19,4 @@ python manage.py runserver
 
 
 ## Геймплей
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](./videos/proccess.mp4)
+![](./gifs/proccess.gif)
